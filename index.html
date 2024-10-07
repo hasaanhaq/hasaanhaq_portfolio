@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Hasaan Haq</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hasaan Haq</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/circle.big.hasaan.png" alt="Hasaan Haq profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Hasaan Haq</h1>
+        <p class="section__text__p2">Embedded Systems</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Hasaan_s_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Letter_of_Rec.pdf')"
+          >
+            Letter
+            from
+            Past Employer
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/in/hasaan-haq-6a9a2a288/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/hasaan.fish.sc.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>2 years <br />Engineering Intern</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Studying at UC San Diego<br />Major: Computer Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am a third-year Computer Engineering student at UC San Diego with a passion for embedded systems and hands-on technical experience. 
+                I interned in the engineering department at CALPAK USA, Inc., a contract engineering design and manufacturing firm specializing in power conversion and electronic components. 
+                During my internship, I was tasked with creating, updating, and maintaining engineering documentation, such as design specifications, schematics, and datasheets for numerous electronic design projects. 
+                I also conducted component research and discovery, reviewed electrical schematics, and produced wiring diagrams using OrCAD Capture. Additionally, I gained direct hands-on experience with bench-testing, production testing, and firmware tasks.
+Alongside my internship experience, I am actively developing my skills in C/C++ and expanding my expertise in embedded systems. 
+I aspire to pursue a career in embedded systems engineering, designing efficient hardware solutions for real-world applications. At 20 years old, I am eager to continue growing in the tech industry and applying my skills to innovative challenges.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Hardware Engineering Intern at Calpak USA, Inc. (Oct 2022 - Sep 2024)</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Engineering Documentation</h3>
+                  <p>Developed, updated, and maintained engineering documentation, such as design specifications, schematics, and datasheets to ensure project consistency and accuracy.</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Component Research & Discovery</h3>
+                  <p>Conducted component research to identify cost-effective, high-performance solutions for design projects.</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Electrical Schematic Review</h3>
+                  <p>Reviewed electrical schematics for accuracy, identifying potential improvements and ensuring adherence to industry standards.</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Hands-On Testing</h3>
+                  <p>Performed hands-on bench-testing, production testing, and firmware tasks to ensure hardware reliability and system efficiency.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container smaller-details-container">
+            <h2 class="experience-sub-title">Engineering Tasks/Programming</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>C</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Testing Boards</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">USB-Multi-Port Inflator</h2>
+            <p>Assisted Principal Embedded Software Engineer in developing Python-based script to flash and test firmware for an ST Microelectronics STM32F103 ARM-Cortex M3 Microcontroller, streamlining the production process.</p>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">2100-Flo-Lab-Testing</h2>
+            <p>Supported reverse engineering of I/O and communication protocols, utilizing a Salae 16-channel logic analyzer to capture and analyze UART and SPI data, leading to better understanding of device communications.</p>
+          </div>
+          <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Zenith Alpha Automated Optical Inspection</h2>
+            <p>Operated a state-of-the-art SMT PCB Automated Optical Inspection machine, assisting in programming and AOI testing of assemblies for improved efficiency and accuracy in the assembly line process.</p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">hasaanhaq@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/hasaan-haq-6a9a2a288/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
