@@ -27,8 +27,7 @@ Welcome to my personal portfolio website! This project showcases my experience, 
 - **JavaScript** - Interactive features
 
 ## 📸 Preview
-![Portfolio Screenshot](![Screenshot 2025-03-04 000934](https://github.com/user-attachments/assets/4247b71e-c72a-493b-a8f2-437f7e4129c2)
-)
+(![Screenshot 2025-03-04 000934](https://github.com/user-attachments/assets/4247b71e-c72a-493b-a8f2-437f7e4129c2)
 
 ## 🌐 Live Demo
 Check out the live version of the website here: **[Your Live Link Here]**
